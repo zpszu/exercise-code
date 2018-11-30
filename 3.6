@@ -1,0 +1,15 @@
+friends = ['mike', 'tony', 'lily']
+message = "would you like coming to have dinner with me"
+for name in friends:
+    print(name.title() + " ," + message + '?')
+print(friends[0].title() + " will not come!")
+friends[0] = 'jack'
+print(friends[0].title() + " ," + message + '?' )
+message_1 = "I found a larger table just now!"
+print(message_1)
+friends.insert(0,'kevin')
+friends.insert(3,'rose')
+friends.append('lisa')
+for name in friends:
+    print(name.title() + " ," + message + '?')
+
