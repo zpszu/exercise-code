@@ -1,0 +1,31 @@
+friends = ['mike', 'tony', 'lily']
+message = "would you like coming to have dinner with me"
+for name in friends:
+    print(name.title() + " ," + message + '?')
+print(friends[0].title() + " will not come!")
+friends[0] = 'jack'
+print(friends[0].title() + " ," + message + '?' )
+message_1 = "\nI found a larger table just now!"
+print(message_1)
+friends.insert(0,'kevin')
+friends.insert(3,'rose')
+friends.append('lisa')
+for name in friends:
+    print(name.title() + " ," + message + '?')
+message_2 = "\nI'm sorry to get that my new table can't be send to me on time!"
+message_3 = "So I can only invite two friends to have dinner!"
+print(message_2 + " "+message_3)
+message_4 = "I can't invite you to have dinner with me!"
+popped_1 = friends.pop()
+print("Sorry " + popped_1.title() + ", " + message_4)
+popped_1 = friends.pop()
+print("Sorry " + popped_1.title() + ", " + message_4)
+popped_1 = friends.pop()
+print("Sorry " + popped_1.title() + ", " + message_4)
+popped_1 = friends.pop()
+print("Sorry " + popped_1.title() + ", " + message_4)
+for name in friends:
+    print(name.title() + " ," + message + '?')
+del friends[0]
+del friends[0]
+print(friends)
