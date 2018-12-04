@@ -1,0 +1,8 @@
+numbers_1 = range(1, 1000001)
+for num in numbers_1:
+    print(num)
+
+numbers_2 = list(range(1, 1000001))
+print(min(numbers_2))
+print(max(numbers_2))
+print(sum(numbers_2))
