@@ -1,0 +1,21 @@
+#
+my_foods = ['pizza', 'cola', 'cake', 'rice', 'watermelon']
+print("The first three items in the list are:")
+print(my_foods[0:3])
+print("Three items from the middle of the list are:")
+print(my_foods[1:4])
+print("The last three items in the list are:")
+print(my_foods[2:6])
+
+#
+my_foods = ['whitepi', 'bluepi', 'blackpi', 'redpi', 'greenpi']
+friend_pizzas = my_foods[:]
+my_foods.append('grownpi')
+friend_pizzas.append('yellowpi')
+print("My favorite pizzas are:")
+pizza_1 = [pizza for pizza in my_foods]
+print(pizza_1)
+pizza_2 = [pizza for pizza in friend_pizzas]
+print(pizza_2)
+
+#
