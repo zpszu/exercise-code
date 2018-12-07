@@ -15,6 +15,11 @@ elif age >= 65:
     print("He is an elder man")
 
 #
+favorite_fruits = ['apple', 'pear', 'watermelon']
+fruits = ['apple', 'pear', 'watermelon','banana']
+
+if 'apple' in favorite_fruits:
+    print("You really like apple")
 if 'pear' in favorite_fruits:
     print("You really like pear")
 if 'watermelon' in favorite_fruits:
